@@ -1,0 +1,114 @@
+.userdisplay{
+    display: flex;
+    margin: 0 170px;
+}
+
+.userdisplay-left{
+    display: flex;
+    gap: 17px;
+}
+
+.userdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.userdisplay-img-list img{
+    height: 100px;
+}
+
+.userdisplay-main-img{
+    width: 586px;
+    height: 700px;
+    object-fit: contain;
+}
+
+.user-display-right{
+    margin: 0 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-display-right h1{
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.userdisplay-right-stars{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 20px;
+}
+
+.userdisplay-right-stars img{
+    width: 50px;
+}
+
+.userdisplay-right-stars .starDull{
+    width: 30px;
+}
+
+
+.userdisplay-right-prices{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.userdisplay-right-price-old{
+    text-decoration: line-through;
+    color: #818181;
+}
+
+.userdisplay-right-price-new{
+    color: #ff4141;
+}
+
+.userdisplay-right-size h1{
+    margin-top: 55px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.userdisplay-right-sizes{
+    display: flex;
+    margin: 30px 0;
+    gap: 20px;
+}
+
+.userdisplay-right-sizes div{
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.user-display-right button{
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #FF4141;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;    
+}
+
+.userdisplay-right-category{
+    margin-top: 10px;
+}
+
+.userdisplay-right-category span{
+    font-weight: 600;
+    
+}   
